@@ -1,0 +1,68 @@
+/* Demo Styles */
+body {
+  padding: 2rem 1rem;
+}
+
+.docs-example-orbit-slide {
+  padding: 2rem 9rem;
+  color: #fefefe;
+}
+
+.orbit-slide:nth-of-type(2) .docs-example-orbit-slide {
+  background: rebeccapurple;
+}
+.orbit-slide:nth-of-type(3) .docs-example-orbit-slide {
+  background: darkgoldenrod;
+}
+.orbit-slide:nth-of-type(4) .docs-example-orbit-slide {
+  background: lightseagreen;
+}
+
+.logo{
+  text-align: center;
+}
+
+body {
+  padding: 8rem;
+}
+
+.row {
+  background: #e6e6e6;
+  margin-bottom: 1rem;
+}
+
+.column,
+.columns {
+  background: #767676;
+}
+.columns{
+  background-color: lightgreen;
+}
+
+.column span,
+.columns span {
+  background: #1779ba;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.callout {
+  background: #1779ba;
+  text-align: center;
+}
+
+.box {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+.box.blue {
+  background: #1779ba;
+}
+.box.gray {
+  background: #767676;
+}
+.box.black {
+  background: #000;
+}

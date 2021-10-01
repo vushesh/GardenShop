@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foundation 101</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+          integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+            integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type= "text/css "href="sass/shop.css">
+    <link rel="stylesheet" type= "text/css "href="css/foundation.css">
+    <!-- Insert this within your head tag and after foundation.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css" />
+
+</head>
+<body>
+<div class="logo">
+    <img src="images/logo.png">
+</div>
+
+<div class="top-bar" id="example-menu">
+    <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">George Garden Shop</li>
+            <li class="has-submenu">
+                <a href="GardenShop.html">Home</a></li>
+            <li><a href="GS2.html">Gallery</a></li>
+            <li><a href="GS3.html">Services</a></li>
+            <li><a href="GS4.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="menu">
+            <li><input type="search" placeholder="Search"></li>
+            <li><button type="button" class="button">Search</button></li>
+        </ul>
+    </div>
+</div>
+
+
+<ul class="vertical menu" data-accordion-menu>
+    <li>
+        <a href="#0">Plants</a>
+        <ul class="menu vertical nested">
+            <li>
+                <a href="#0">Fragrant</a>
+                <img class="thumbnail" src="images/services/download.jpg">
+                <a href="#0">Fruits</a>
+                <img class="thumbnail" src="images/services/fruit.jpg">
+                <a href="#0">Herbs</a>
+                <img class="thumbnail" src="images/services/herb.jpg">
+                <a href="#0">Ground Covers</a>
+                <img class="thumbnail" src="images/services/ground_cover.jpg">
+                <a href="#0">Natives</a>
+                <img class="thumbnail" src="images/services/native.jpg">
+                <a href="#0">Indoor</a>
+                <img class="thumbnail" src="images/services/indoor.jpg">
+                <a href="#0">Potted</a>
+                <img class="thumbnail" src="images/services/potted.jpg">
+                <a href="#0">Roses</a>
+                <img class="thumbnail" src="images/services/rose.jpg">
+                <a href="#0">Bulbs</a>
+                <img class="thumbnail" src="images/services/bulb.jpg">
+            </li>
+
+        </ul>
+    <li>
+        <a href="#0">Pots</a>
+        <ul class="menu vertical nested">
+            <li><a href="#0">6 Sets Pots</a>
+                <img class="thumbnail" src="images/services/pots.jpg">
+
+                <a href="#0">Ceramic Pots</a>
+                <img class="thumbnail" src="images/services/ceramiv..jpg">
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="#0">Gift</a>
+        <ul class="menu vertical nested">
+            <li>
+                <a href="#0">Gardening gift set</a>
+                <img class="thumbnail" src="images/services/gift.jpg">
+            </li>
+
+        </ul>
+    </li>
+
+    <li>
+        <a href="#0">Garden Tools</a>
+        <ul class="menu vertical nested">
+            <li><a href="#0">Tools</a>
+                <img class="thumbnail" src="images/services/tools.jpg">
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="#0">Fertilisers</a>
+        <ul class="menu vertical nested">
+            <li><a href="#0">Fertilser</a>
+                <img class="thumbnail" src="images/services/fertiliser.jpg">
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+
+
+
+
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>

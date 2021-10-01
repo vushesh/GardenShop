@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foundation 101</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+          integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+            integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type= "text/css "href="sass/shop.css">
+    <link rel="stylesheet" type= "text/css "href="css/foundation.css">
+    <!-- Insert this within your head tag and after foundation.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css" />
+
+</head>
+<body>
+<div class="logo">
+    <img src="images/logo.png">
+</div>
+
+<div class="top-bar" id="example-menu">
+    <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">George Garden Shop</li>
+            <li class="has-submenu">
+                <a href="GardenShop.html">Home</a></li>
+            <li><a href="GS2.html">Gallery</a></li>
+            <li><a href="GS3.html">Services</a></li>
+            <li><a href="GS4.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="menu">
+            <li><input type="search" placeholder="Search"></li>
+            <li><button type="button" class="button">Search</button></li>
+        </ul>
+    </div>
+</div>
+<div class="grid-container">
+    <form>
+        <label>First Name
+            <input type="text" placeholder="e.g XXXXXX" aria-describedby="exampleHelpText">
+        </label><label>Last Name
+            <input type="text" placeholder="e.g XXXXXX" aria-describedby="exampleHelpText">
+        </label>
+        <label>
+            Phone Number
+            <input type="text" placeholder="e.g xxx-xxx-xxx">
+        </label>
+        <label>
+            Type of interest
+            <input type="text" value="">
+        </label>
+        <label>
+            Short summary about all the interests.
+            <textarea placeholder="None"></textarea>
+        </label>
+        <div class="grid-x grid-margin-x">
+        </div>
+        <div class="input-group">
+            <div class="input-group-button">
+                <input type="submit" class="button" value="Submit">
+            </div>
+        </div>
+</form>
+</div>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>

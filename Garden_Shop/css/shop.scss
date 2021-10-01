@@ -1,0 +1,77 @@
+$white: #fefefe;
+
+/* Demo Styles */
+body {
+  padding: 2rem 1rem;
+}
+
+.docs-example-orbit-slide {
+  padding: 2rem 4rem;
+  color: $white;
+
+.orbit-slide:nth-of-type(1) & {
+  background: dodgerblue;
+}
+
+.orbit-slide:nth-of-type(2) & {
+  background: rebeccapurple;
+}
+
+.orbit-slide:nth-of-type(3) & {
+  background: darkgoldenrod;
+}
+
+.orbit-slide:nth-of-type(4) & {
+  background: lightseagreen;
+}
+}
+
+// demo styles
+$primary-color: #1779ba;
+$secondary-color: #767676;
+$light-gray: #e6e6e6;
+
+body {
+  padding: 2rem;
+}
+
+.row {
+  background: $light-gray;
+  margin-bottom: 1rem;
+}
+
+.column,
+.columns {
+  background: $secondary-color;
+  border: 5px solid black;
+
+  span {
+    background: $primary-color;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.callout {
+  background: $primary-color;
+  text-align: center;
+}
+
+.box {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+
+  &.blue {
+    background: $primary-color;
+  }
+
+  &.gray {
+    background: $secondary-color;
+  }
+
+  &.black {
+    background: #000;
+  }
+}
